@@ -2,6 +2,16 @@ import React from 'react';
 
 async function getUserData(data) {
 	try {
+		/**
+		 * await axios({
+		 *		method: 'post',
+		 *		url: '/api/jsonws/invoke',
+	 	 *		data,
+		 *		config: { headers: {'Content-Type': 'multipart/form-data' }}
+		 *	});
+		 *
+		*/
+
 		const response = await fetch(
 			'/api/jsonws/invoke',
 			{
