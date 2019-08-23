@@ -1,0 +1,5 @@
+Bundle-Name: my-async-mvc-portlet-test
+Bundle-SymbolicName: com.liferay.docs.mvcportlet
+Bundle-Version: 1.0.0
+Export-Package: com.liferay.docs.mvcportlet.constants
+Web-ContextPath: /my-async-mvc-portlet-test

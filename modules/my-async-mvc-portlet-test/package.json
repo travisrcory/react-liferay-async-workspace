@@ -1,0 +1,22 @@
+{
+	"name": "my-async-mvc-portlet-test",
+	"version": "1.0.0",
+	"description": "My Async MVC Portlet Test",
+	"devDependencies": {
+		"@babel/cli": "^7.5.5",
+		"@babel/core": "^7.5.5",
+		"@babel/plugin-transform-regenerator": "^7.4.5",
+		"@babel/preset-env": "7.5.5",
+		"@babel/preset-react": "7.0.0",
+		"liferay-npm-bundler": "2.12.0"
+	},
+	"dependencies": {
+		"regenerator-runtime": "0.13.3",
+		"react": "16.8.6",
+		"react-dom": "16.8.6"
+	},
+	"scripts": {
+		"build": "babel --source-maps -d build/resources/main/META-INF/resources src/main/resources/META-INF/resources && liferay-npm-bundler"
+	},
+	"main": "js/index.es.js"
+}
