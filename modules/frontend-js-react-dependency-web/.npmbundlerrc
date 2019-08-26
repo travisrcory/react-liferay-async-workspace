@@ -1,0 +1,14 @@
+{
+	"exclude": {
+		"react": [
+			"umd/**/*"
+		],
+		"react-dom": [
+			"**/*profiling*",
+			"**/*server*",
+			"**/*test*",
+			"**/*unstable*",
+			"umd/**/*"
+		]
+	}
+}

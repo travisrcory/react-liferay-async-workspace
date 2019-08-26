@@ -1,0 +1,4 @@
+Bundle-Name: Liferay Frontend JS React Dependency Web
+Bundle-SymbolicName: com.liferay.frontend.js.react.dependency.web
+Bundle-Version: 1.0.0
+Web-ContextPath: /frontend-js-react-dependency-web
